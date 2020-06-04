@@ -26,63 +26,115 @@ remarks:
 - The excursion legs were characterized by larger flower-like cloud clusters growing
   on a sugar cloud field.
 segments:
-- kind: circle
+- kinds:
+  - circle
   name: c1
-  start: 2020-02-11 12:58:37
-  end: 2020-02-11 13:51:04
-- kind: circle_break
+  irregularities: ''
+  segment_id: RF12_c1
+  start: 2020-02-11 12:57:38
+  end: 2020-02-11 13:55:26
+  good_dropsondes: '11'
+- kinds:
+  - circle_break
   name: cb1to2
-  start: 2020-02-11 13:51:04
-  end: 2020-02-11 14:12:05
-- kind: circle
+  irregularities: ''
+  segment_id: RF12_cb1
+  start: 2020-02-11 13:55:26
+  end: 2020-02-11 14:11:04
+- kinds:
+  - circle
   name: c2
-  start: 2020-02-11 14:12:05
-  end: 2020-02-11 15:04:10
-- kind: circle_break
+  irregularities: ''
+  segment_id: RF12_c2
+  start: 2020-02-11 14:11:04
+  end: 2020-02-11 15:10:30
+  good_dropsondes: '12'
+- kinds:
+  - circle_break
   name: cb2to3
-  start: 2020-02-11 15:04:10
-  end: 2020-02-11 15:27:52
-- kind: circle
+  irregularities: ''
+  segment_id: RF12_cb2
+  start: 2020-02-11 15:10:30
+  end: 2020-02-11 15:26:53
+- kinds:
+  - circle
   name: c3
-  start: 2020-02-11 15:27:52
-  end: 2020-02-11 16:22:46
-- kind: circle_break
+  irregularities: ''
+  segment_id: RF12_c3
+  start: 2020-02-11 15:26:53
+  end: 2020-02-11 16:27:48
+  good_dropsondes: '12'
+- kinds:
+  - circle_break
   name: cb3to4
-  start: 2020-02-11 16:22:46
-  end: 2020-02-11 16:39:53
-- kind: circle
+  irregularities: ''
+  segment_id: RF12_cb3
+  start: 2020-02-11 16:27:48
+  end: 2020-02-11 16:38:52
+- kinds:
+  - circle
   name: c4
-  start: 2020-02-11 16:39:53
-  end: 2020-02-11 17:33:47
-- kind: circle_break
+  irregularities: ''
+  segment_id: RF12_c4
+  start: 2020-02-11 16:38:52
+  end: 2020-02-11 17:41:08
+  good_dropsondes: '11'
+- kinds:
+  - circle_break
   name: cb4to5
-  start: 2020-02-11 17:33:47
-  end: 2020-02-11 17:54:03
-- kind: circle
+  irregularities: ''
+  segment_id: RF12_cb4
+  start: 2020-02-11 17:41:08
+  end: 2020-02-11 17:51:24
+- kinds:
+  - circle
   name: c5
-  start: 2020-02-11 17:54:03
-  end: 2020-02-11 18:52:06
-- kind: straight_leg
+  irregularities: 'Circle is only <xarray.DataArray ''heading'' ()>
+
+    array(367.58065796) deg'
+  segment_id: RF12_c5
+  start: 2020-02-11 17:51:24
+  end: 2020-02-11 18:55:24
+  good_dropsondes: '12'
+- kinds:
+  - straight_leg
   name: leg1_outbound_NTAS
+  irregularities: ''
+  segment_id: 1RF12_sl1
   start: 2020-02-11 18:59:03
   end: 2020-02-11 19:45:51
-- kind: radar_calibration_wiggle
+- kinds:
+  - radar_calibration_wiggle
   name: radar_cal_wiggle1
-  start: 2020-02-11 19:45:51
-  end: 2020-02-11 19:51:11
-- kind: radar_calibration_tilted
+  irregularities: ''
+  segment_id: RF12_rcw1
+  start: 2020-02-11 19:46:24
+  end: 2020-02-11 19:47:44
+- kinds:
+  - radar_calibration_tilted
   name: radar_cal_tilted
+  irregularities: ''
+  segment_id: RF12_rct1
   start: 2020-02-11 19:51:11
   end: 2020-02-11 19:59:34
-- kind: radar_calibration_wiggle
+- kinds:
+  - radar_calibration_wiggle
   name: radar_cal_wiggle2
-  start: 2020-02-11 19:59:34
-  end: 2020-02-11 20:10:08
-- kind: straight_leg
+  irregularities: ''
+  segment_id: RF12_rcw2
+  start: 2020-02-11 20:00:05
+  end: 2020-02-11 20:01:37
+- kinds:
+  - straight_leg
   name: leg2_inbound_NTAS
+  irregularities: ''
+  segment_id: RF12_sl2
   start: 2020-02-11 20:10:08
   end: 2020-02-11 20:58:39
-- kind: lidar_calibration
+- kinds:
+  - lidar_calibration
   name: lidar_cal
+  irregularities: ''
+  segment_id: RF12_lc1
   start: 2020-02-11 21:12:49
   end: 2020-02-11 21:22:13
