@@ -5,7 +5,12 @@ contacts:
 - name: Marc Prange
   email: marc.prange@uni-hamburg.de
   tags:
-  - dataset creator
+  - lc
+  - dp
+- name: Lutz Hirsch
+  email: lutz.hirsch@mpimet.mpg.de
+  tags:
+  - dp
 - name: Marek Jacob
   email: marek.jacob@uni-koeln.de
   tags:
@@ -27,113 +32,121 @@ remarks:
   on a sugar cloud field.
 segments:
 - kinds:
+  - circling
+  name: circling 1
+  irregularities: []
+  segment_id: HALO-0211_o1
+  start: 2020-02-11 12:57:38
+  end: 2020-02-11 18:55:41
+  good_dropsondes: 58
+- kinds:
   - circle
-  name: c1
+  name: circle 1
   irregularities: []
   segment_id: HALO-0211_c1
   start: 2020-02-11 12:57:38
-  end: 2020-02-11 13:55:26
+  end: 2020-02-11 13:54:23
   good_dropsondes: 11
 - kinds:
   - circle_break
-  name: cb1to2
+  name: circle break 1
   irregularities: []
   segment_id: HALO-0211_cb1
-  start: 2020-02-11 13:55:26
+  start: 2020-02-11 13:54:23
   end: 2020-02-11 14:11:04
 - kinds:
   - circle
-  name: c2
+  name: circle 2
   irregularities: []
   segment_id: HALO-0211_c2
   start: 2020-02-11 14:11:04
-  end: 2020-02-11 15:10:30
+  end: 2020-02-11 15:09:20
   good_dropsondes: 12
 - kinds:
   - circle_break
-  name: cb2to3
+  name: circle break 2
   irregularities: []
   segment_id: HALO-0211_cb2
-  start: 2020-02-11 15:10:30
+  start: 2020-02-11 15:09:20
   end: 2020-02-11 15:26:53
 - kinds:
   - circle
-  name: c3
+  name: circle 3
   irregularities: []
   segment_id: HALO-0211_c3
   start: 2020-02-11 15:26:53
-  end: 2020-02-11 16:27:48
+  end: 2020-02-11 16:26:47
   good_dropsondes: 12
 - kinds:
   - circle_break
-  name: cb3to4
+  name: circle break 3
   irregularities: []
   segment_id: HALO-0211_cb3
-  start: 2020-02-11 16:27:48
+  start: 2020-02-11 16:26:47
   end: 2020-02-11 16:38:54
 - kinds:
   - circle
-  name: c4
+  name: circle 4
   irregularities: []
   segment_id: HALO-0211_c4
   start: 2020-02-11 16:38:54
-  end: 2020-02-11 17:41:08
+  end: 2020-02-11 17:40:29
   good_dropsondes: 11
 - kinds:
   - circle_break
-  name: cb4to5
+  name: circle break 4
   irregularities: []
   segment_id: HALO-0211_cb4
-  start: 2020-02-11 17:41:08
+  start: 2020-02-11 17:40:29
   end: 2020-02-11 17:53:00
 - kinds:
   - circle
-  name: c5
+  name: circle 5
   irregularities:
   - First sonde 63 sec, to adjust for early exit
   segment_id: HALO-0211_c5
   start: 2020-02-11 17:53:00
-  end: 2020-02-11 18:55:43
+  end: 2020-02-11 18:55:41
   good_dropsondes: 12
 - kinds:
   - straight_leg
-  name: leg1_outbound_NTAS
+  name: leg1 outbound NTAS
   irregularities: []
   segment_id: HALO-0211_sl1
-  start: 2020-02-11 18:59:03
-  end: 2020-02-11 19:45:51
+  start: 2020-02-11 18:58:28
+  end: 2020-02-11 19:46:26
 - kinds:
   - radar_calibration_wiggle
-  name: radar_cal_wiggle1
+  name: radarcalibration wiggle 1
   irregularities: []
   segment_id: HALO-0211_rcw1
   start: 2020-02-11 19:46:24
   end: 2020-02-11 19:47:44
 - kinds:
   - radar_calibration_tilted
-  name: radar_cal_tilted
+  name: radar calibration tilted
   irregularities: []
   segment_id: HALO-0211_rct1
   start: 2020-02-11 19:51:11
   end: 2020-02-11 19:59:34
 - kinds:
   - radar_calibration_wiggle
-  name: radar_cal_wiggle2
+  name: radar calibration wiggle 2
   irregularities: []
   segment_id: HALO-0211_rcw2
-  start: 2020-02-11 20:00:05
-  end: 2020-02-11 20:01:37
+  start: 2020-02-11 20:00:13
+  end: 2020-02-11 20:01:36
 - kinds:
   - straight_leg
-  name: leg2_inbound_NTAS
+  name: leg2 inbound NTAS
   irregularities: []
   segment_id: HALO-0211_sl2
   start: 2020-02-11 20:10:08
   end: 2020-02-11 20:58:39
 - kinds:
   - lidar_leg
-  name: lidar_leg
+  name: lidar leg
   irregularities: []
   segment_id: HALO-0211_ll1
-  start: 2020-02-11 21:12:49
-  end: 2020-02-11 21:22:13
+  start: 2020-02-11 21:07:50
+  end: 2020-02-11 21:22:22
